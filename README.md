@@ -1,6 +1,6 @@
 # Encuentra las Parejas para Android
 
-Repositorio que contiene el código fuente y la .apk de el juego
+Repositorio que contiene el código fuente y la .apk del juego
 "Encuentra las parejas" desarrollado en Android Studio.
 
 ## Funcionamiento
@@ -50,7 +50,11 @@ antes todas las parejas.
 Tras terminar la partida, veremos un mensaje encima de las cartas, que nos
 indicará si hemos ganado o perdido.
 
+<div align="center">
+
 ![ganado](https://github.com/oscarcillo/EncuentraLasParejas/blob/master/capturas/Screenshot_1545002502.png)
+
+</div>
 
 ## Código fuente
 
