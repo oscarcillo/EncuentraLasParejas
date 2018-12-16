@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- estilo de la carta -->
+    <style name="carta">
+        <item name="android:layout_width">@dimen/tamano_carta</item>
+        <item name="android:layout_height">@dimen/tamano_carta</item>
+        <item name="android:src">@drawable/carta</item>
+        <item name="android:layout_marginBottom">@dimen/margen_carta_vertical</item>
+        <item name="android:layout_marginTop">@dimen/margen_carta_vertical</item>
+        <item name="android:layout_marginRight">@dimen/margen_carta_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/margen_carta_horizontal</item>
+    </style>
+
+    <!-- estilo del titulo -->
+    <style name="titulo">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margen_titulo_casillas</item>
+        <item name="android:layout_marginTop">@dimen/margen_titulo_casillas</item>
+    </style>
+
+    <!-- estilo de los radio -->
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+        <item name="android:onClick">seleccionarModo</item>
+    </style>
+
+    <!-- estilo del temporizador -->
+    <style name="temporizador">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">00:00</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@color/colorTemporizador</item>
+        <item name="android:textColor">@color/colorTextoBlanco</item>
+        <item name="android:padding">@dimen/relleno_temporizador</item>
+    </style>
+
+</resources>

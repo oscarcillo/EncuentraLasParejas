@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tamano_carta">105dp</dimen>
+    <dimen name="margen_carta_vertical">3dp</dimen>
+    <dimen name="margen_carta_horizontal">2dp</dimen>
+
+    <dimen name="margen_titulo_casillas">10dp</dimen>
+
+    <dimen name="relleno_temporizador">5dp</dimen>
+</resources>

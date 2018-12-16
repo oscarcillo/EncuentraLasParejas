@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/temporizador"
+        style="@style/temporizador" />
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="492dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            style="@style/titulo"
+            android:text="@string/titulo"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTitulo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:columnCount="3"
+            app:rowCount="4">
+
+            <ImageView
+                android:id="@+id/cartaa1"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartaa2"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartaa3"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartab1"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartab2"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartab3"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartac1"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartac2"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartac3"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartad1"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartad2"
+                style="@style/carta" />
+
+            <ImageView
+                android:id="@+id/cartad3"
+                style="@style/carta" />
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/elige_modo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/modoNormal"
+            style="@style/radio"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/modo_normal"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/modoUnaOportunidad"
+            style="@style/radio"
+            android:layout_weight="1"
+            android:text="@string/modo_una_oportunidad"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/modoTiempoLimitado"
+            style="@style/radio"
+            android:layout_weight="1"
+            android:text="@string/modo_tiempo_limitado"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="228dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/jugar"
+        android:layout_width="102dp"
+        android:layout_height="34dp"
+        android:background="@color/colorPrimary"
+        android:onClick="jugar"
+        android:text="@string/jugar"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
+</LinearLayout>

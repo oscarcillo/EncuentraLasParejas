@@ -1,0 +1,21 @@
+<resources>
+    <!-- strings del juego -->
+    <string name="app_name">Encuentra las Parejas</string>
+    <string name="titulo_incorrecto">INCORRECTO</string>
+    <string name="titulo_correcto">CORRECTO</string>
+    <string name="titulo">MEMORIZA LAS PAREJAS</string>
+    <string name="titulo_ganador">HAS GANADO</string>
+    <string name="titulo_perdedor">HAS PERDIDO</string>
+
+    <!-- strings del menu -->
+    <string name="jugar">Jugar</string>
+    <string name="elige_modo">Elige un modo de juego:</string>
+    <string name="modo_normal">Normal</string>
+    <string name="modo_una_oportunidad">Una oportunidad</string>
+    <string name="modo_tiempo_limitado">Tiempo limitado</string>
+
+    <string name="descripcion_normal">Tienes tiempo ilimitado para encontrar todas las parejas.</string>
+    <string name="descripcion_unaoportunidad">Si al elegir pareja fallas, el juego acaba.</string>
+    <string name="descripcion_tiempolimitado">Tienes que encontrar todas las parejas antes de que se acabe el tiempo.</string>
+
+</resources>
