@@ -64,8 +64,8 @@ Esta aplicación se compone de 4 clases:
 * **Carta** - Es una clase que define el objeto Carta que se usa en la clase "MainActivity". Contiene
 atributos básicos como la ImageView, el nº de la pareja, el boolean que controla si está boca arriba
 o boca abajo etc. También tiene los respectivos métodos Getter y Setter para acceder a estos atributos.
-* **CountUpTimer** - Clase abstracta que se usa para controlar que el temporizador cuenta
-de manera descendente en el modo de juego "Tiempo limitado". Clase obtenia a partir del siguiente
+* **CountUpTimer** - Clase abstracta que se usa para controlar que el temporizador cuente
+de manera descendente en el modo de juego "Tiempo limitado". Clase obtenida a partir del siguiente
 [enlace](https://gist.github.com/MiguelLavigne/8809180c5b8fe2fc7403).
 
 [Enlace a las clases Java](https://github.com/oscarcillo/EncuentraLasParejas/tree/master/app/src/main/java/com/otr/tres_en_raya)
