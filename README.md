@@ -68,13 +68,13 @@ o boca abajo etc. También tiene los respectivos métodos Getter y Setter para a
 de manera descendente en el modo de juego "Tiempo limitado". Clase obtenia a partir del siguiente
 [enlace](https://gist.github.com/MiguelLavigne/8809180c5b8fe2fc7403).
 
-[Enlace a las clases Java](https://github.com/oscarcillo/TresEnRaya/tree/master/app/src/main/java/com/otr/tres_en_raya)
+[Enlace a las clases Java](https://github.com/oscarcillo/EncuentraLasParejas/tree/master/app/src/main/java/com/otr/tres_en_raya)
 
 Asimismo, necesita 2 Layouts para funcionar: uno para el menú y otro para el tablero de juego.
 
-[Enlace al Layout principal](https://github.com/oscarcillo/TresEnRaya/tree/master/app/src/main/res/layout)
+[Enlace al Layout principal](https://github.com/oscarcillo/EncuentraLasParejas/tree/master/app/src/main/res/layout)
 
-[Enlace a la carpeta res](https://github.com/oscarcillo/TresEnRaya/tree/master/app/src/main/res)
+[Enlace a la carpeta res](https://github.com/oscarcillo/EncuentraLasParejas/tree/master/app/src/main/res)
 
 ## Descarga de la apk
 
